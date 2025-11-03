@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7464FA7D2EB9028E0067688C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7464FA742EB9028E0067688C /* Assets.xcassets */; };
+		7464FA7F2EB9028E0067688C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7464FA772EB9028E0067688C /* LaunchScreen.storyboard */; };
+		7464FA802EB9028E0067688C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7464FA792EB9028E0067688C /* Main.storyboard */; };
+		7464FA812EB9028E0067688C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA732EB9028E0067688C /* AppDelegate.swift */; };
+		7464FA822EB9028E0067688C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA7A2EB9028E0067688C /* SceneDelegate.swift */; };
+		7464FA832EB9028E0067688C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA7B2EB9028E0067688C /* ViewController.swift */; };
+		7464FAA42EB903200067688C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAA02EB903200067688C /* ResultViewController.swift */; };
+		7464FAA52EB903200067688C /* BuilderAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA892EB903200067688C /* BuilderAppService.swift */; };
+		7464FAA62EB903200067688C /* AnswerBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA9A2EB903200067688C /* AnswerBuild.swift */; };
+		7464FAA72EB903200067688C /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA862EB903200067688C /* CoreManager.swift */; };
+		7464FAA82EB903200067688C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA842EB903200067688C /* BaseViewModel.swift */; };
+		7464FAA92EB903200067688C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA9F2EB903200067688C /* InfoViewController.swift */; };
+		7464FAAA2EB903200067688C /* SafeRoadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA9C2EB903200067688C /* SafeRoadController.swift */; };
+		7464FAAB2EB903200067688C /* SelectPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA942EB903200067688C /* SelectPuzzle.swift */; };
+		7464FAAC2EB903200067688C /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA902EB903200067688C /* SelectViewController.swift */; };
+		7464FAAD2EB903200067688C /* PuzzlEeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA962EB903200067688C /* PuzzlEeightController.swift */; };
+		7464FAAE2EB903200067688C /* FirstScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA8B2EB903200067688C /* FirstScreenController.swift */; };
+		7464FAAF2EB903200067688C /* AppData_EP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA882EB903200067688C /* AppData_EP.swift */; };
+		7464FAB02EB903200067688C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA9E2EB903200067688C /* SettingsController.swift */; };
+		7464FAB12EB903200067688C /* QuizGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA992EB903200067688C /* QuizGameController.swift */; };
+		7464FAB22EB903200067688C /* OpenLinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAA22EB903200067688C /* OpenLinkController.swift */; };
+		7464FAB32EB903200067688C /* ImagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA932EB903200067688C /* ImagesData.swift */; };
+		7464FAB42EB903200067688C /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA922EB903200067688C /* SelectCell.swift */; };
+		7464FAB52EB903200067688C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA8C2EB903200067688C /* WelcomeView.swift */; };
+		7464FAB62EB903200067688C /* PuzzleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA972EB903200067688C /* PuzzleResult.swift */; };
+		7464FAB72EB903200067688C /* PuzzleFourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA952EB903200067688C /* PuzzleFourController.swift */; };
+		7464FAB82EB903200067688C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA8E2EB903200067688C /* MainController.swift */; };
+		7464FABB2EB903640067688C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FABA2EB903640067688C /* SnapKit */; };
+		7464FABE2EB903740067688C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FABD2EB903740067688C /* AppsFlyerLib */; };
+		7464FAC12EB903880067688C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FAC02EB903880067688C /* OneSignalFramework */; };
+		7464FAC82EB9039A0067688C /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC32EB9039A0067688C /* OneSignalService.swift */; };
+		7464FAC92EB9039A0067688C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC42EB9039A0067688C /* InternetViewController.swift */; };
+		7464FACA2EB9039A0067688C /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC52EB9039A0067688C /* LoaderViewController.swift */; };
+		7464FACB2EB9039A0067688C /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC22EB9039A0067688C /* CheckLink.swift */; };
+		7464FACC2EB9039A0067688C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC62EB9039A0067688C /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC595D5ACA880D3968DDB75 /* Pods-EggsPatrolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggsPatrolKit.debug.xcconfig"; path = "Target Support Files/Pods-EggsPatrolKit/Pods-EggsPatrolKit.debug.xcconfig"; sourceTree = "<group>"; };
+		43C14678CC5B16A53D811DB4 /* Pods-EggsPatrolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggsPatrolKit.release.xcconfig"; path = "Target Support Files/Pods-EggsPatrolKit/Pods-EggsPatrolKit.release.xcconfig"; sourceTree = "<group>"; };
+		52AB79981D5CEAD1DBF67843 /* Pods_EggsPatrolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggsPatrolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7464FA5B2EB902690067688C /* EggsPatrolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggsPatrolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7464FA732EB9028E0067688C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7464FA742EB9028E0067688C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7464FA752EB9028E0067688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7464FA762EB9028E0067688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7464FA782EB9028E0067688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7464FA7A2EB9028E0067688C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7464FA7B2EB9028E0067688C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7464FA842EB903200067688C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		7464FA862EB903200067688C /* CoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
+		7464FA882EB903200067688C /* AppData_EP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData_EP.swift; sourceTree = "<group>"; };
+		7464FA892EB903200067688C /* BuilderAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderAppService.swift; sourceTree = "<group>"; };
+		7464FA8B2EB903200067688C /* FirstScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenController.swift; sourceTree = "<group>"; };
+		7464FA8C2EB903200067688C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7464FA8E2EB903200067688C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7464FA902EB903200067688C /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		7464FA922EB903200067688C /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
+		7464FA932EB903200067688C /* ImagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesData.swift; sourceTree = "<group>"; };
+		7464FA942EB903200067688C /* SelectPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPuzzle.swift; sourceTree = "<group>"; };
+		7464FA952EB903200067688C /* PuzzleFourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleFourController.swift; sourceTree = "<group>"; };
+		7464FA962EB903200067688C /* PuzzlEeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlEeightController.swift; sourceTree = "<group>"; };
+		7464FA972EB903200067688C /* PuzzleResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleResult.swift; sourceTree = "<group>"; };
+		7464FA992EB903200067688C /* QuizGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameController.swift; sourceTree = "<group>"; };
+		7464FA9A2EB903200067688C /* AnswerBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBuild.swift; sourceTree = "<group>"; };
+		7464FA9C2EB903200067688C /* SafeRoadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeRoadController.swift; sourceTree = "<group>"; };
+		7464FA9E2EB903200067688C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		7464FA9F2EB903200067688C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		7464FAA02EB903200067688C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		7464FAA22EB903200067688C /* OpenLinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLinkController.swift; sourceTree = "<group>"; };
+		7464FAC22EB9039A0067688C /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7464FAC32EB9039A0067688C /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
+		7464FAC42EB9039A0067688C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7464FAC52EB9039A0067688C /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7464FAC62EB9039A0067688C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7464FACD2EB9117C0067688C /* EggsPatrolKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggsPatrolKit.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7464FA582EB902690067688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464FABB2EB903640067688C /* SnapKit in Frameworks */,
+				7464FAC12EB903880067688C /* OneSignalFramework in Frameworks */,
+				7464FABE2EB903740067688C /* AppsFlyerLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7464FA522EB902690067688C = {
+			isa = PBXGroup;
+			children = (
+				7464FA7C2EB9028E0067688C /* EggsPatrolKit */,
+				7464FA5C2EB902690067688C /* Products */,
+				8285E15AE5D119FC87C1684E /* Pods */,
+				BD43D4C997C6B5462950DC38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7464FA5C2EB902690067688C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA5B2EB902690067688C /* EggsPatrolKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7464FA7C2EB9028E0067688C /* EggsPatrolKit */ = {
+			isa = PBXGroup;
+			children = (
+				7464FACD2EB9117C0067688C /* EggsPatrolKit.entitlements */,
+				7464FA732EB9028E0067688C /* AppDelegate.swift */,
+				7464FA742EB9028E0067688C /* Assets.xcassets */,
+				7464FA752EB9028E0067688C /* Info.plist */,
+				7464FA772EB9028E0067688C /* LaunchScreen.storyboard */,
+				7464FA792EB9028E0067688C /* Main.storyboard */,
+				7464FA7A2EB9028E0067688C /* SceneDelegate.swift */,
+				7464FA7B2EB9028E0067688C /* ViewController.swift */,
+				7464FA852EB903200067688C /* ViewModel */,
+				7464FA8A2EB903200067688C /* Helps */,
+				7464FA8D2EB903200067688C /* FirstScreen */,
+				7464FA8F2EB903200067688C /* MainModule */,
+				7464FA912EB903200067688C /* SelectView */,
+				7464FA982EB903200067688C /* PuzzleGame */,
+				7464FA9B2EB903200067688C /* QuizGame */,
+				7464FA9D2EB903200067688C /* SafeRoad */,
+				7464FAA12EB903200067688C /* Settings */,
+				7464FAA32EB903200067688C /* OpenLinkView */,
+				7464FAC72EB9039A0067688C /* LoadingView */,
+			);
+			path = EggsPatrolKit;
+			sourceTree = "<group>";
+		};
+		7464FA852EB903200067688C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA842EB903200067688C /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7464FA872EB903200067688C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA862EB903200067688C /* CoreManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7464FA8A2EB903200067688C /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA872EB903200067688C /* CoreData */,
+				7464FA882EB903200067688C /* AppData_EP.swift */,
+				7464FA892EB903200067688C /* BuilderAppService.swift */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		7464FA8D2EB903200067688C /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA8B2EB903200067688C /* FirstScreenController.swift */,
+				7464FA8C2EB903200067688C /* WelcomeView.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		7464FA8F2EB903200067688C /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA8E2EB903200067688C /* MainController.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		7464FA912EB903200067688C /* SelectView */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA902EB903200067688C /* SelectViewController.swift */,
+			);
+			path = SelectView;
+			sourceTree = "<group>";
+		};
+		7464FA982EB903200067688C /* PuzzleGame */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA922EB903200067688C /* SelectCell.swift */,
+				7464FA932EB903200067688C /* ImagesData.swift */,
+				7464FA942EB903200067688C /* SelectPuzzle.swift */,
+				7464FA952EB903200067688C /* PuzzleFourController.swift */,
+				7464FA962EB903200067688C /* PuzzlEeightController.swift */,
+				7464FA972EB903200067688C /* PuzzleResult.swift */,
+			);
+			path = PuzzleGame;
+			sourceTree = "<group>";
+		};
+		7464FA9B2EB903200067688C /* QuizGame */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA992EB903200067688C /* QuizGameController.swift */,
+				7464FA9A2EB903200067688C /* AnswerBuild.swift */,
+			);
+			path = QuizGame;
+			sourceTree = "<group>";
+		};
+		7464FA9D2EB903200067688C /* SafeRoad */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA9C2EB903200067688C /* SafeRoadController.swift */,
+			);
+			path = SafeRoad;
+			sourceTree = "<group>";
+		};
+		7464FAA12EB903200067688C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7464FA9E2EB903200067688C /* SettingsController.swift */,
+				7464FA9F2EB903200067688C /* InfoViewController.swift */,
+				7464FAA02EB903200067688C /* ResultViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7464FAA32EB903200067688C /* OpenLinkView */ = {
+			isa = PBXGroup;
+			children = (
+				7464FAA22EB903200067688C /* OpenLinkController.swift */,
+			);
+			path = OpenLinkView;
+			sourceTree = "<group>";
+		};
+		7464FAC72EB9039A0067688C /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7464FAC22EB9039A0067688C /* CheckLink.swift */,
+				7464FAC32EB9039A0067688C /* OneSignalService.swift */,
+				7464FAC42EB9039A0067688C /* InternetViewController.swift */,
+				7464FAC52EB9039A0067688C /* LoaderViewController.swift */,
+				7464FAC62EB9039A0067688C /* Extensions.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		8285E15AE5D119FC87C1684E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BC595D5ACA880D3968DDB75 /* Pods-EggsPatrolKit.debug.xcconfig */,
+				43C14678CC5B16A53D811DB4 /* Pods-EggsPatrolKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD43D4C997C6B5462950DC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52AB79981D5CEAD1DBF67843 /* Pods_EggsPatrolKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7464FA5A2EB902690067688C /* EggsPatrolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7464FA6E2EB9026A0067688C /* Build configuration list for PBXNativeTarget "EggsPatrolKit" */;
+			buildPhases = (
+				81A82C13FD33B01B4BE8B03D /* [CP] Check Pods Manifest.lock */,
+				7464FA572EB902690067688C /* Sources */,
+				7464FA582EB902690067688C /* Frameworks */,
+				7464FA592EB902690067688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggsPatrolKit;
+			productName = EggsPatrolKit;
+			productReference = 7464FA5B2EB902690067688C /* EggsPatrolKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7464FA532EB902690067688C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					7464FA5A2EB902690067688C = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 7464FA562EB902690067688C /* Build configuration list for PBXProject "EggsPatrolKit" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7464FA522EB902690067688C;
+			packageReferences = (
+				7464FAB92EB903640067688C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7464FABC2EB903740067688C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
+			productRefGroup = 7464FA5C2EB902690067688C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7464FA5A2EB902690067688C /* EggsPatrolKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7464FA592EB902690067688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464FA7D2EB9028E0067688C /* Assets.xcassets in Resources */,
+				7464FA7F2EB9028E0067688C /* LaunchScreen.storyboard in Resources */,
+				7464FA802EB9028E0067688C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81A82C13FD33B01B4BE8B03D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EggsPatrolKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7464FA572EB902690067688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464FAA42EB903200067688C /* ResultViewController.swift in Sources */,
+				7464FAA52EB903200067688C /* BuilderAppService.swift in Sources */,
+				7464FAA62EB903200067688C /* AnswerBuild.swift in Sources */,
+				7464FAA72EB903200067688C /* CoreManager.swift in Sources */,
+				7464FAA82EB903200067688C /* BaseViewModel.swift in Sources */,
+				7464FAA92EB903200067688C /* InfoViewController.swift in Sources */,
+				7464FAAA2EB903200067688C /* SafeRoadController.swift in Sources */,
+				7464FAAB2EB903200067688C /* SelectPuzzle.swift in Sources */,
+				7464FAAC2EB903200067688C /* SelectViewController.swift in Sources */,
+				7464FAAD2EB903200067688C /* PuzzlEeightController.swift in Sources */,
+				7464FAAE2EB903200067688C /* FirstScreenController.swift in Sources */,
+				7464FAAF2EB903200067688C /* AppData_EP.swift in Sources */,
+				7464FAB02EB903200067688C /* SettingsController.swift in Sources */,
+				7464FAB12EB903200067688C /* QuizGameController.swift in Sources */,
+				7464FAB22EB903200067688C /* OpenLinkController.swift in Sources */,
+				7464FAB32EB903200067688C /* ImagesData.swift in Sources */,
+				7464FAB42EB903200067688C /* SelectCell.swift in Sources */,
+				7464FAB52EB903200067688C /* WelcomeView.swift in Sources */,
+				7464FAB62EB903200067688C /* PuzzleResult.swift in Sources */,
+				7464FAB72EB903200067688C /* PuzzleFourController.swift in Sources */,
+				7464FAB82EB903200067688C /* MainController.swift in Sources */,
+				7464FAC82EB9039A0067688C /* OneSignalService.swift in Sources */,
+				7464FAC92EB9039A0067688C /* InternetViewController.swift in Sources */,
+				7464FACA2EB9039A0067688C /* LoaderViewController.swift in Sources */,
+				7464FACB2EB9039A0067688C /* CheckLink.swift in Sources */,
+				7464FACC2EB9039A0067688C /* Extensions.swift in Sources */,
+				7464FA812EB9028E0067688C /* AppDelegate.swift in Sources */,
+				7464FA822EB9028E0067688C /* SceneDelegate.swift in Sources */,
+				7464FA832EB9028E0067688C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7464FA772EB9028E0067688C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7464FA762EB9028E0067688C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7464FA792EB9028E0067688C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7464FA782EB9028E0067688C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7464FA6F2EB9026A0067688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC595D5ACA880D3968DDB75 /* Pods-EggsPatrolKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EggsPatrolKit/EggsPatrolKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggsPatrolKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.EggsPatrolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7464FA702EB9026A0067688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C14678CC5B16A53D811DB4 /* Pods-EggsPatrolKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EggsPatrolKit/EggsPatrolKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggsPatrolKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.EggsPatrolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7464FA712EB9026A0067688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7464FA722EB9026A0067688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7464FA562EB902690067688C /* Build configuration list for PBXProject "EggsPatrolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7464FA712EB9026A0067688C /* Debug */,
+				7464FA722EB9026A0067688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7464FA6E2EB9026A0067688C /* Build configuration list for PBXNativeTarget "EggsPatrolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7464FA6F2EB9026A0067688C /* Debug */,
+				7464FA702EB9026A0067688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7464FAB92EB903640067688C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		7464FABC2EB903740067688C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+		7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.15;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7464FABA2EB903640067688C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7464FAB92EB903640067688C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		7464FABD2EB903740067688C /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7464FABC2EB903740067688C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		7464FAC02EB903880067688C /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7464FA532EB902690067688C /* Project object */;
+}
