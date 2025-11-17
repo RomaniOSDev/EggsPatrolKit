@@ -11,7 +11,6 @@ import WebKit
 
 class WebviewVC: UIViewController, WKNavigationDelegate  {
     
-    private let oneSignalService = OneSignalService.shared
         
     func obtainCookies() {
         let standartStorage: UserDefaults = UserDefaults.standard

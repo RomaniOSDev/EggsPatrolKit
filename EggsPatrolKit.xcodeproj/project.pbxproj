@@ -36,8 +36,6 @@
 		7464FAB82EB903200067688C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FA8E2EB903200067688C /* MainController.swift */; };
 		7464FABB2EB903640067688C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FABA2EB903640067688C /* SnapKit */; };
 		7464FABE2EB903740067688C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FABD2EB903740067688C /* AppsFlyerLib */; };
-		7464FAC12EB903880067688C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7464FAC02EB903880067688C /* OneSignalFramework */; };
-		7464FAC82EB9039A0067688C /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC32EB9039A0067688C /* OneSignalService.swift */; };
 		7464FAC92EB9039A0067688C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC42EB9039A0067688C /* InternetViewController.swift */; };
 		7464FACA2EB9039A0067688C /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC52EB9039A0067688C /* LoaderViewController.swift */; };
 		7464FACB2EB9039A0067688C /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464FAC22EB9039A0067688C /* CheckLink.swift */; };
@@ -78,7 +76,6 @@
 		7464FAA02EB903200067688C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		7464FAA22EB903200067688C /* OpenLinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLinkController.swift; sourceTree = "<group>"; };
 		7464FAC22EB9039A0067688C /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		7464FAC32EB9039A0067688C /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
 		7464FAC42EB9039A0067688C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		7464FAC52EB9039A0067688C /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		7464FAC62EB9039A0067688C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -91,7 +88,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7464FABB2EB903640067688C /* SnapKit in Frameworks */,
-				7464FAC12EB903880067688C /* OneSignalFramework in Frameworks */,
 				7464FABE2EB903740067688C /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				7464FAC22EB9039A0067688C /* CheckLink.swift */,
-				7464FAC32EB9039A0067688C /* OneSignalService.swift */,
 				7464FAC42EB9039A0067688C /* InternetViewController.swift */,
 				7464FAC52EB9039A0067688C /* LoaderViewController.swift */,
 				7464FAC62EB9039A0067688C /* Extensions.swift */,
@@ -319,7 +314,6 @@
 			packageReferences = (
 				7464FAB92EB903640067688C /* XCRemoteSwiftPackageReference "SnapKit" */,
 				7464FABC2EB903740067688C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
-				7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
 			);
 			productRefGroup = 7464FA5C2EB902690067688C /* Products */;
 			projectDirPath = "";
@@ -394,7 +388,6 @@
 				7464FAB62EB903200067688C /* PuzzleResult.swift in Sources */,
 				7464FAB72EB903200067688C /* PuzzleFourController.swift in Sources */,
 				7464FAB82EB903200067688C /* MainController.swift in Sources */,
-				7464FAC82EB9039A0067688C /* OneSignalService.swift in Sources */,
 				7464FAC92EB9039A0067688C /* InternetViewController.swift in Sources */,
 				7464FACA2EB9039A0067688C /* LoaderViewController.swift in Sources */,
 				7464FACB2EB9039A0067688C /* CheckLink.swift in Sources */,
@@ -448,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tob.eggsp4tr0l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -486,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tob.eggsp4tr0l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -662,14 +655,6 @@
 				minimumVersion = 6.17.7;
 			};
 		};
-		7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.15;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -682,11 +667,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7464FABC2EB903740067688C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
 			productName = AppsFlyerLib;
-		};
-		7464FAC02EB903880067688C /* OneSignalFramework */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7464FABF2EB903880067688C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
-			productName = OneSignalFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
